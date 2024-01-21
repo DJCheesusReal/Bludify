@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bludify</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bludify</h1>
+  </header>
+
+  <main>
+    <aside>
+      <h2>Song List</h2>
+      <ul class="song-list">
+        <li class="song-list-item" data-song="song1.mp3">Song 1</li>
+        <li class="song-list-item" data-song="song2.mp3">Song 2</li>
+        <li class="song-list-item" data-song="song3.mp3">Song 3</li>
+      </ul>
+    </aside>
+
+    <section>
+      <div class="player-container">
+        <div class="album-art"></div>
+
+        <div class="controls">
+          <button id="previous">⏮</button>
+          <button id="playPause">▶️ Play</button>
+          <button id="stop">⏹</button>
+          <button id="next">⏭</button>
+        </div>
+
+        <div class="scrub-bar">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Bludify. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
